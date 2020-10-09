@@ -1,0 +1,13 @@
+---
+layout: layouts/base.liquid
+---
+{{content}}
+<hr>
+{% assign previousPost = collections.posts | getPreviousCollectionItem: page %}
+{% assign nextPost = collections.posts | getNextCollectionItem: page %}
+<div class="row">
+{% if previousPost %}Previous Blog Post: <a href="{{ previousPost.url }}">{{ previousPost.data.pageTitle }}</a>{% endif %}
+</div>
+<div class="row">
+{% if nextPost %}Next Blog Post: <a href="{{ nextPost.url }}">{{ nextPost.data.pageTitle }}</a>{% endif %}
+</div>
