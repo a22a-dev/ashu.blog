@@ -1,7 +1,9 @@
 ---
-pageTitle: Post - Fakenews & Issues  
-<!-- tags: fake news, society   -->
+pageTitle: Post - Fakenews & Issues
 date: 2020-10-10
+tags:
+  - articles
+  - posts
 ---
 
 > It is a living document… It will be updated as & when I deem fit. It is so, because my thoughts, view and opinion changes overtime… as I read and learn about things.

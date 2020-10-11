@@ -1,24 +1,27 @@
 {
-  "name": "blogspace",
+  "name": "blog.avinash-a-kanaujiya.me",
   "version": "1.0.0",
   "description": "",
   "main": ".eleventy.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "@11ty/eleventy-navigation": "^0.1.6"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d docs"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aak9t9/blogspace.git"
+    "url": "git+https://github.com/aak9t9/blog.avinash-a-kanaujiya.me.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aak9t9/blogspace/issues"
+    "url": "https://github.com/aak9t9/blog.avinash-a-kanaujiya.me/issues"
   },
-  "homepage": "/blogspace",
-  "dependencies": {
-    "gh-pages": "^3.1.0"
-  }
+  "homepage": "https://github.com/aak9t9/blog.avinash-a-kanaujiya.me#readme"
 }

@@ -1,7 +1,9 @@
 ---
 pageTitle: Post - How to formulate better acronyms and it's hidden meaning
-<!-- tags: fake news, society   -->
 date: 2020-07-04
+tags:
+  - articles
+  - posts
 ---
 
 Hello guys,

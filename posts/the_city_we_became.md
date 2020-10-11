@@ -1,6 +1,9 @@
 ---
 pageTitle: Book Review - The City We Became
 date: 2020-08-09
+tags:
+  - books
+  - posts
 ---
 
 # Review
