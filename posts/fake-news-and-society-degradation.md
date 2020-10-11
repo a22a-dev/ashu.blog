@@ -1,5 +1,5 @@
 ---
-pageTitle: Fakenews & Issues  
+pageTitle: Post - Fakenews & Issues  
 <!-- tags: fake news, society   -->
 date: 2020-10-10
 ---
