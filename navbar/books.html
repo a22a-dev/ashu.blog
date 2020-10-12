@@ -1,6 +1,33 @@
 ---
 layout: layouts/base.liquid
 ---
+<h2>Currently Reading</h2>
+
+<p>
+  <ul>
+    <li>{{cold_data.data.currently_reading_book_1}}</li>
+    <ul>
+      <li>{{cold_data.data.description_book_1}}</li>
+    </ul>
+    <li>{{cold_data.data.currently_reading_book_2}}</li>
+    <ul>
+      <li>{{cold_data.data.description_book_2}}</li>
+    </ul>
+    <!-- <li>{{cold_data.data.currently_reading_book_3}}</li>
+    <ul>
+      <li>{{cold_data.data.description_book_3}}</li>
+    </ul>
+    <li>{{cold_data.data.currently_reading_book_4}}</li>
+    <ul>
+      <li>{{cold_data.data.description_book_4}}</li>
+    </ul>
+    <li>{{cold_data.data.currently_reading_book_5}}</li>
+    <ul>
+      <li>{{cold_data.data.description_book_5}}</li>
+    </ul> -->
+  </ul>
+</p>
+<h2>Books</h2>
 {% for post in collections.books %}
     <!-- <h2><a href="{{ post.url }}">{{ post.data.pageTitle }}</a></h2> -->
     <p>
