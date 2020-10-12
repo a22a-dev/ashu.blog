@@ -27,6 +27,9 @@
         <meta name="description" content="A wiki for all things software engineering...">
         <title>Personal Blogspace</title>
         <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="/js/responsive_navbar.js"></script>
     </head>
     <body>
 
@@ -34,17 +37,27 @@
           <a href="/index.html">blogspace|</a>
         </div>
         <div id="navbar">
-          <div class="topnav" >
+          <div class="topnav" id="myTopnav">
             <a href="/navbar/articles">Articles</a>
             <a class="active" href="/navbar/books">Books</a>
             <a href="/navbar/tv_shows">TV Shows</a>
             <a href="/navbar/last_week">Last Week</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
           </div>
         </div>
 
 
         <h1></h1>
         
+    <!-- <h2><a href="/posts/Overlord_Review/">Overlord Review</a></h2> -->
+    <p>
+      <!-- <em>2020-10-12</em> -->
+       <em>2020-10-12</em>
+      <a href="/posts/Overlord_Review/">Overlord Review</a>
+    </p>
+
 
     </body>
 </html>
