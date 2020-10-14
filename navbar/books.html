@@ -16,7 +16,7 @@ layout: layouts/base.liquid
 
 
 <h2>Books</h2>
-{% for post in collections.books %}
+{% for post in collections.books reversed %}
     <!-- <h2><a href="{{ post.url }}">{{ post.data.pageTitle }}</a></h2> -->
     <p class="postLink">
       <!-- <em>{{ post.date | date: "%Y-%m-%d" }}</em> -->
