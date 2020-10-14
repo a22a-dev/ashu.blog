@@ -1,5 +1,5 @@
 ---
-pageTitle: Post - Fakenews & Issues
+pageTitle: Fakenews & Issues
 date: 2020-10-10
 tags:
   - articles

@@ -1,5 +1,5 @@
 ---
-pageTitle: Post - How to formulate better acronyms and it's hidden meaning
+pageTitle: How to formulate better acronyms and it's hidden meaning
 date: 2020-07-04
 tags:
   - articles

@@ -1,5 +1,5 @@
 ---
-pageTitle: Book Review - The Last Wish
+pageTitle: The Last Wish
 date: 2020-09-20
 tags:
   - books

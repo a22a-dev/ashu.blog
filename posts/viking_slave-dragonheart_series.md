@@ -1,5 +1,5 @@
 ---
-pageTitle: Book Review - Viking Slave
+pageTitle: Viking Slave
 date: 2020-08-22
 tags:
   - books
