@@ -2,17 +2,22 @@
 layout: layouts/base.liquid
 ---
 <h2>All Posts</h2>
+
+<!-- to retrive post marked with tagname posts in order where latest post is at top -->
 {% for post in collections.posts reversed %}
-    <!-- <h2><a href="{{ post.url }}">{{ post.data.pageTitle }}</a></h2> -->
     <p class="postLink">
-      <!-- <em>{{ post.date | date: "%Y-%m-%d" }}</em> -->
-       <em>{{ post.date | date: "%Y-%m-%d" }}</em>
+
+      <!-- to print the date of publishing of post -->
+      <em>{{ post.date | date: "%Y-%m-%d" }}</em>
+
+      <!-- to create the link of using it's title name -->
       <a href="{{ post.url }}">{{ post.data.pageTitle }}</a>
 
+      <!-- to display the tags of the post by excluding few -->
       {% for tag in post.data.tags reversed %}
-          <!-- <h2><a href="{{ post.url }}">{{ post.data.pageTitle }}</a></h2> -->
-            <!-- <em>{{tag}}</em> -->
             {% if tag != "posts" %}
+
+              <!-- prints the tag names -->
               <b>{{tag}}</b>
             {% endif %}
       {% endfor %}

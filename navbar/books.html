@@ -3,11 +3,17 @@ layout: layouts/base.liquid
 ---
 <h2>Currently Reading</h2>
 
+<!-- shows the list of currently read books -->
 <p>
+
   {% for book in currentReadingBook %}
+
   <ul>
+
     <li>{{ book[1].name}}</li>
+
     <ul>
+
       <li>{{ book[1].description }}</li>
     </ul>
   </ul>
@@ -16,17 +22,23 @@ layout: layouts/base.liquid
 
 
 <h2>Books</h2>
+
+<!-- to retrive post marked with tagname books in order where latest post is at top -->
 {% for post in collections.books reversed %}
-    <!-- <h2><a href="{{ post.url }}">{{ post.data.pageTitle }}</a></h2> -->
     <p class="postLink">
-      <!-- <em>{{ post.date | date: "%Y-%m-%d" }}</em> -->
-       <em>{{ post.date | date: "%Y-%m-%d" }}</em>
+
+      <!-- to print the date of publishing of post -->
+      <em>{{ post.date | date: "%Y-%m-%d" }}</em>
+
+      <!-- to create the link of using it's title name -->
       <a href="{{ post.url }}">{{ post.data.pageTitle }}</a>
+
+      <!-- to display the tags of the post by excluding few -->
       {% for tag in post.data.tags reversed %}
-          <!-- <h2><a href="{{ post.url }}">{{ post.data.pageTitle }}</a></h2> -->
-            <!-- <em>{{tag}}</em> -->
-            {% if tag != "posts" and tag != "articles" and tag != "tv_shows" and tag != "reviews" and tag != "last_week" and tag != "books" %}
-              <b>{{tag}}</b>
+          {% if tag != "posts" and tag != "articles" and tag != "tv_shows" and tag != "reviews" and tag != "last_week" and tag != "books" %}
+
+              <!-- prints the tag names -->
+              <b>{{ tag }}</b>
             {% endif %}
       {% endfor %}
     </p>
@@ -34,12 +46,15 @@ layout: layouts/base.liquid
 
 
 <h2>Reading Snapshots</h2>
-<p>This sections spoilers...</p>
+
+<!-- to retrive post marked with tagname lastweek in order where latest post is at top -->
 {% for post in collections.snapshots reversed %}
-    <!-- <h2><a href="{{ post.url }}">{{ post.data.pageTitle }}</a></h2> -->
     <p class="postLink">
-      <!-- <em>{{ post.date | date: "%Y-%m-%d" }}</em> -->
-       <em>{{ post.date | date: "%Y-%m-%d" }}</em>
+
+      <!-- to print the date of publishing of post -->
+      <em>{{ post.date | date: "%Y-%m-%d" }}</em>
+
+      <!-- to create the link of using it's title name -->
       <a href="{{ post.url }}">{{ post.data.pageTitle }}</a>
     </p>
 {% endfor %}
