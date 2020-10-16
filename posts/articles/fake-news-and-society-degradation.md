@@ -4,12 +4,13 @@ date: 2020-10-10
 tags:
   - articles
   - posts
+publish: false
 ---
 
 > It is a living document… It will be updated as & when I deem fit. It is so, because my thoughts, view and opinion changes overtime… as I read and learn about things.
 >
 > This document will be versioned using sematic versioning. Archived links to older version is provided \[here\]().
->
+>mark
 > Current Version : 0.1.0
 
 Nowadays, where ever I see, fake news is omnipresent. It is in ads, pitch, political campaign, news sites, magazines etc. In short, everywhere. People look upto these sites and magazines to get information about what is happening in society & world. But they are not realizing it, that these sites are just copy pasting anything that they find on internet and publish it, without any verification on their part. I am not saying that all the content are fake, but that is the issue. If all content is fake then it is easy to identify the fake content, but they insert these things into genuine news and hence people just blindly accept it. 

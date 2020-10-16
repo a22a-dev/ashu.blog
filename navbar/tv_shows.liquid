@@ -22,21 +22,24 @@ layout: layouts/base.liquid
 {% for post in collections.tv_shows reversed %}
     <p class="postLink">
 
-      <!-- to print the date of publishing of post -->
-      <em>{{ post.date | date: "%Y-%m-%d" }}</em>
+      <!-- to check if post is publishable -->
+      {% if post.data.publish !=false %}
 
-      <!-- to create the link of using it's title name -->
-      <a href="{{ post.url }}">{{ post.data.pageTitle }}</a>
+        <!-- to print the date of publishing of post -->
+        <em>{{ post.date | date: "%Y-%m-%d" }}</em>
 
-      <!-- to display the tags of the post by excluding few -->
-      {% for tag in post.data.tags reversed %}
-            {% if tag != "posts" and tag != "articles" and tag != "tv_shows" and tag != "reviews" and tag != "last_week" and tag != "books" %}
+        <!-- to create the link of using it's title name -->
+        <a href="{{ post.url }}">{{ post.data.pageTitle }}</a>
 
-              <!-- prints the tag names -->
-              <b>{{tag}}</b>
+        <!-- to display the tags of the post by excluding few -->
+        {% for tag in post.data.tags reversed %}
+              {% if tag != "posts" and tag != "articles" and tag != "tv_shows" and tag != "reviews" and tag != "last_week" and tag != "books" %}
 
-            {% endif %}
+                <!-- prints the tag names -->
+                <b>{{tag}}</b>
 
-      {% endfor %}
+              {% endif %}
+        {% endfor %}
+      {%endif%}
     </p>
 {% endfor %}

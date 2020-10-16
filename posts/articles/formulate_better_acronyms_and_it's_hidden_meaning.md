@@ -4,6 +4,7 @@ date: 2020-07-04
 tags:
   - articles
   - posts
+publish: true
 ---
 
 Hello guys,
@@ -90,19 +91,19 @@ If in doubt, give the reader more clarity, not less.
 
 After scouring the internet for a few more hours, I found a few more tips on creating useful acronyms.
 
-1.  The best acronyms spell out a word related to their cause, function or meaning, or one that elicits positive feelings or associations.  
-    – [LEAD](http://www.wharton.upenn.edu/academics/LEAD.cfm): for a leadership program, i.e., Leadership Education and Development  
-    – [LEAP](https://www.mededportal.org/publication/9073): for an educational training module, Learning from your Experiences As a Professional  
+1.  The best acronyms spell out a word related to their cause, function or meaning, or one that elicits positive feelings or associations.
+    – [LEAD](http://www.wharton.upenn.edu/academics/LEAD.cfm): for a leadership program, i.e., Leadership Education and Development
+    – [LEAP](https://www.mededportal.org/publication/9073): for an educational training module, Learning from your Experiences As a Professional
     – [SAGE](http://www.utsouthwestern.edu/education/medical-school/departments/internal-medicine/divisions/geriatrics/sage.html): A program in which students at UT Southwestern learn about aging, i.e., Southwestern Aging Geriatrics Education program
-2.  Even when the letters don’t spell out a word with meaning related to the subject, it helps if what is spelled out feels like a word:  
-    – LASER: Light Amplification by Stimulated Emission of Radiation  
-    – RADAR: RAdio Detecting And Ranging  
-    – AWOL: Absent With Out Leave  
+2.  Even when the letters don’t spell out a word with meaning related to the subject, it helps if what is spelled out feels like a word:
+    – LASER: Light Amplification by Stimulated Emission of Radiation
+    – RADAR: RAdio Detecting And Ranging
+    – AWOL: Absent With Out Leave
     – SCUBA: Self-Contained Underwater Breathing Apparatus
 3.  Whether you have a good acronym or one that is obtuse and not well known, define it early and often so people can easily and quickly figure it out.
 
-Publishers have long acknowledged the challenges of acronyms. Generally, their rules are:  
-– only the most well-known acronyms can be left as such: AIDS, US, UK  
+Publishers have long acknowledged the challenges of acronyms. Generally, their rules are:
+– only the most well-known acronyms can be left as such: AIDS, US, UK
 – spell out all other acronyms, at least the first time they appear in the article
 
 Even if all these rules don’t work out for you somehow and you end up something that is not quite making as acronyms, just hope that eventually the concept, organization, and acronym will be so well known and widely used that people won’t even realize that it doesn’t make sense.

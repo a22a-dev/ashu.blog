@@ -4,6 +4,7 @@ date: 2020-07-10
 tags:
   - articles
   - posts
+publish: true
 ---
 
 OOP is one of the most essential concepts to know for any programmer. Remarkably accurate for Entry Level or Junior Level programmer. And I bet every programmer in their greener 20s must have been asked or grilled about OOP. But it is also the most easily overlooked concept in programming if you are only starting out.
