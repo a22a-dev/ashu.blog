@@ -1,7 +1,7 @@
 ---
-pageTitle: 'House of Leaves - #1'
+pageTitle: 'house of leaves'
 tags:
-  - snapshots
+  - snapshot
   - posts
   - spoiler
 ---

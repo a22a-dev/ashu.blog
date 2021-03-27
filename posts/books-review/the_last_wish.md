@@ -2,7 +2,7 @@
 pageTitle: The Last Wish
 date: 2020-09-20
 tags:
-  - books
+  - book
   - posts
 publish: false
 ---

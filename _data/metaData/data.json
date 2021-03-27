@@ -1,3 +1,7 @@
 {
-  "site_title_name": "ashu.blog"
+  "site_title_name": "ashu.blog",
+  "articles": "articles",
+  "books": "books",
+  "tvshows": "tv shows",
+  "lastweek": "last week"
 }

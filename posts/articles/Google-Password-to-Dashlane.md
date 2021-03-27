@@ -1,9 +1,10 @@
 ---
-pageTitle: Google Passwords to Dashlane
+pageTitle: google passwords to dashlane
 tags:
     - posts
-    - articles
-    - password-managers
+    - article
+    - password
+    - manager
     - dashlane  
 
 ---

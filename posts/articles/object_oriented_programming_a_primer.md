@@ -1,5 +1,5 @@
 ---
-pageTitle: Object Oriented Programming A Primer
+pageTitle: object oriented programming - a primer
 date: 2020-07-10
 tags:
   - articles

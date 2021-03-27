@@ -1,9 +1,9 @@
 ---
-pageTitle: Overlord Review
+pageTitle: overlord review
 tags:
     - posts
-    - tv_shows
-    - reviews
+    - tv-show
+    - review
 stars: 7
 
 ---

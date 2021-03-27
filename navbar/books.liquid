@@ -1,64 +1,47 @@
 ---
 layout: layouts/base.liquid
 ---
-<h2>Currently Reading</h2>
+<h2>{{books.liquid.data.currentlyreading}}</h2>
 
 <!-- shows the list of currently read books -->
 <p>
 
-  {% for book in currentReadingBook %}
+	{% for book in currentReadingBook %}
 
-  <ul>
+<ul>
 
-    <li>{{ book[1].name}}</li>
+	<li>{{ book[1].name}}</li>
 
-    <ul>
+	<ul>
 
-      <li>{{ book[1].description }}</li>
-    </ul>
-  </ul>
-  {% endfor %}
+		<li>{{ book[1].description }}</li>
+	</ul>
+</ul>
+{% endfor %}
 </p>
 
 
-<h2>Books</h2>
+<h2>{{books.liquid.data.books}}</h2>
 
 <!-- to retrive post marked with tagname books in order where latest post is at top -->
-{% for post in collections.books reversed %}
-    <p class="postLink">
+{% for post in collections.book reversed %}
+<p class="postLink">
 
-      <!-- to check if post is publishable -->
-      {% if post.data.publish !=false %}
+	<!-- to check if post is publishable -->
+	{% if post.data.publish !=false %}
 
-        <!-- to print the date of publishing of post -->
-        <em>{{ post.date | date: "%Y-%m-%d" }}</em>
+	<!-- to print the date of publishing of post -->
+	<em>{{ post.date | date: "%Y-%m-%d" }}</em>
 
-        <!-- to create the link of using it's title name -->
-        <a href="{{ post.url }}">{{ post.data.pageTitle }}</a>
+	<!-- to create the link of using it's title name -->
+	<a href="{{ post.url }}">{{ post.data.pageTitle }}</a>
 
-        <!-- to display the tags of the post by excluding few -->
-        {% for tag in post.data.tags reversed %}
-            {% if tag != "posts" and tag != "articles" and tag != "tv_shows" and tag != "reviews" and tag != "last_week" and tag != "books" %}
+	<!-- to display the tags of the post by excluding few -->
+	{% for tag in post.data.tags reversed %}
 
-                <!-- prints the tag names -->
-                <b>{{ tag }}</b>
-              {% endif %}
-        {% endfor %}
-      {% endif %}
-    </p>
-{% endfor %}
-
-
-<h2>Reading Snapshots</h2>
-
-<!-- to retrive post marked with tagname lastweek in order where latest post is at top -->
-{% for post in collections.snapshots reversed %}
-    <p class="postLink">
-
-      <!-- to print the date of publishing of post -->
-      <em>{{ post.date | date: "%Y-%m-%d" }}</em>
-
-      <!-- to create the link of using it's title name -->
-      <a href="{{ post.url }}">{{ post.data.pageTitle }}</a>
-    </p>
+	<!-- prints the tag names -->
+	<b>{{ tag }}</b>
+	{% endfor %}
+	{% endif %}
+</p>
 {% endfor %}
