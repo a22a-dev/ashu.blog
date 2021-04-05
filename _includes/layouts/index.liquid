@@ -1,6 +1,8 @@
 ---
 layout: layouts/base.liquid
 ---
+{{ content }}
+
 <h2>{{index.liquid.data.title}}</h2>
 <!-- to retrive post marked with tagname posts in order where latest post is at top -->
 {% for post in collections.posts reversed %}
@@ -13,8 +15,7 @@ layout: layouts/base.liquid
 		</div> -->
 		<!-- to create the link of using it's title name -->
 		<div class="index-postlist-element-link">
-			➣
-			<a href="{{ post.url }}">{{ post.data.pageTitle }}</a>
+			➣<a href="{{ post.url }}">{{ post.data.pageTitle }}</a>
 		</div>
 		<!-- to display the tags of the post by excluding few -->
 		<!-- <div>
