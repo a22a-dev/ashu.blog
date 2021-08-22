@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=eEYW4xpOY5">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=eEYW4xpOY5">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=eEYW4xpOY5">
+	<link rel="manifest" href="/site.webmanifest?v=eEYW4xpOY5">
+	<link rel="shortcut icon" href="/favicon.ico?v=eEYW4xpOY5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<!-- end favicon -->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-9C4G0C1EQ3"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-9C4G0C1EQ3');
+	</script>
+	<!-- end of gtag code -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A knowledge base blog of sorts...">
+	<title>ashu.blog</title>
+	<!-- <link rel="stylesheet" type="text/css" href="/css/main.css"> -->
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- <script src="/js/responsive_navbar.js"></script> -->
+</head>
+
+<body>
+
+	<div class="titlename">
+		<a href="/index.html">ashu.blog</a>
+	</div>
+	<div id="navbar">
+		<div class="topnav" id="myTopnav">
+			<a href="http://" target="_blank" rel="noopener noreferrer">a knowledge base blog of sorts...</a>
+		</div>
+	</div>
+	<!-- <h2>latest post</h2> -->
+
+	<!-- <h1>object oriented programming - a primer</h1> -->
+	<h1>object oriented programming - a primer</h1>
+<p>OOP is one of the most essential concepts to know for any programmer. Remarkably accurate for Entry Level or Junior Level programmer. And I bet every programmer in their greener 20s must have been asked or grilled about OOP. But it is also the most easily overlooked concept in programming if you are only starting out.</p>
+<p>OOP has been used since the 90s, as a problem-solving paradigm and is one most used ones. Although there are many paradigms like Functional Programming, Logical Programming, Imperative Programming etc.</p>
+<p>But OOP has emerged the winner over the years, although functional programming is catching up.</p>
+<p>Hence it is imperative to study this Paradigm of Programming. OOP has four main Principles:</p>
+<ol>
+<li><a href="#root/root/7roToV98lR1I/INlwylMkpDic/5D2I9nmSCAXR/DjBnisvOjQW8">Encapsulation</a></li>
+<li><a href="#root/7roToV98lR1I/INlwylMkpDic/5D2I9nmSCAXR/yi3nVEXT5a4b">Abstraction</a></li>
+<li><a href="#root/7roToV98lR1I/INlwylMkpDic/5D2I9nmSCAXR/6RnNrgfG0Jo4">Inheritance</a></li>
+<li><a href="#root/root/7roToV98lR1I/INlwylMkpDic/5D2I9nmSCAXR/HbnbI9K9O3AH">Polymorphism</a></li>
+</ol>
+<p>We will deal with each of them in the order above.</p>
+<h2>Encapsulation</h2>
+<p>Encapsulation is a concept where data and methods are encapsulated so that other objects cannot access the data and some methods directly, while some public methods are provided for interacting with the said data.</p>
+<p>Say we have a program, where peoples object can interact with a cat object (people can be anything). People can access any data of cat and make it do whatever it wants. That could create a problem. Because people could interact with the cat in a way that a developer may or may not have intended. So basically it will stop being a cat program and will become a crazy cat program. Why? Read below.</p>
+<p>Here data field inside cat is energy, hunger, tiredness and a meow() function. I won't define people object's fields, because it doesn't matter at the moment. Now people can make it's every data field maximum. Does it make sense for a cat to be energetic and tired at the same moment and also be so much hungry even though it has so much energy already stored in its virtual/cyber body? No. No, it doesn't. (also making it to meow() whenever we feel is also not normal)</p>
+<p>Hence we use encapsulation in our program, whenever we are about to implement said functionality in the program. Now if we had made all data fields and meow() method private and created few public methods, namely sleep(), eat(), play(), defining how to interact with the cat. Then the above mentioned non-sense would cease to exist.</p>
+<p>Encapsulation helps in developing hugely complicated codebases.</p>
+<h2>Abstraction</h2>
+<p>Basically, abstraction can be thought of as a natural extension of encapsulation.</p>
+<p>Abstraction aims to only expose the high-level working mechanism of objects, leaving the complicated and colossal implementation under the hood. Which makes objects more comfortable to be used by the user.</p>
+<p>Take, for example, a car, it has many complicated features and its complex implementation, but user/driver himself is oblivious to the fact that he is running such a complicated machine. For him, its only a machine take needs a key and fuel to run. Here abstraction is at work to make the complicated machine into something simple that a driver/user could use.</p>
+<p>In programming, large codebases over a long time get so much complicated, with hundreds of objects communicating with each other, that they get challenging to maintain. Abstraction helps in easing this problem by hiding the complex mechanism of each object and showing the relevant details.</p>
+<p>Abstraction helps in maintaining the vast codebases.</p>
+<p>API is also an example where abstraction is implemented.</p>
+<h2>Inheritance</h2>
+<p>As development and maintenance of codebases are taken care of, there is another problem.</p>
+<p>A lot of time, many objects in the program are the same in many ways and unique in few. So writing these objects over and overtakes a lot of the time of the programmer. Inheritance comes to the rescue.</p>
+<p>What Inheritance does is, it creates a subclass (child) from a class (parent) with all the common code and logic and allows you to add your own unique logic to it. Saving both efforts and time.</p>
+<p>For example, you need to write a program where their persons with different kinds of job and professions. Here you will have to rewrite the human size for each and every person over and over again. But with Inheritance, you can write the human side once and inherit it to all the different persons and only write their various jobs and professions code. This way programmer can save a lot of their valuable time and then use for making the program even better.</p>
+<p>Inheritance provides the code reuse-ability perks in a large codebase.</p>
+<h2>Polymorphism</h2>
+<p>Polymorphism means &quot;many shapes&quot; in Greek. It is also the most complicated concept of the four main principles in OOPs.</p>
+<p>After codebases grow to a specific size, the naming of new methods and functions become increasingly tricky as most proper names are already taken. And also methods &amp; functions need to have appropriate names to make sense of what they do in the programs.</p>
+<p>To address this problem, Polymorphism is introduced. It means that same-named methods can be implemented in different classes with unique code logic of their own. This is made possible by keeping class definition in its own <a href="#root/root/7roToV98lR1I/INlwylMkpDic/5D2I9nmSCAXR/HbnbI9K9O3AH/RJzHIvRJ4xWS">namespace</a> and due to which names assigned within the class definition aren't in conflict with the other names outside it. It is valid for both data and methods of an object's instance.</p>
+<p>It simplifies the programming interface. It also empowers programmers with the ability to use the same name over and over for different classes with a different implementation. The programming interface can be described as a set of abstract behaviours, quite apart from classes that implement them.</p>
+<p>Virtual Methods is how Polymorphism is implemented in many languages.</p>
+<h4>Note</h4>
+<p>You might want to keep this article bookmarked because I will be updating this as when I find new things while studying. And it will grow in depth as time passes.</p>
+<p>Do comment below to let me know if you have any problem or suggestion or request.</p>
+
+<hr>
+
+
+<div class="row">
+	Previous Blog Post: <a href="/posts/articles/formulate_better_acronyms_and_it's_hidden_meaning/">how to formulate better acronyms and it's hidden meaning</a>
+</div>
+<div class="row">
+	Next Blog Post: <a href="/posts/books-review/the_city_we_became/">the city we became</a>
+</div>
+
+	<link rel="stylesheet" type="text/css" href="/styles.css">
+	<script src="/js/responsive_navbar.js"></script>
+</body>
+
+</html>
