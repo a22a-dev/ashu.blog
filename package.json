@@ -13,7 +13,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "npx @11ty/eleventy --serve",
-    "build": "git status && npx eleventy"
+    "build": "npx @11ty/eleventy --formats=liquid,html,jpg,png,js"
   },
   "repository": {
     "type": "git",
