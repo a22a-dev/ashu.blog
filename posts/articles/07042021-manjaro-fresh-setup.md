@@ -1,8 +1,11 @@
 ---
 pageTitle: Beginner's Setup after Fresh Install of Manjaro
-layout: layouts/latest.liquid
+tags:
+    - posts
+    - article
+    - latest
+# layout: layouts/latest.liquid
 ---
-
 After you do a clean install of manjaro, you would like to make few change to get going.
 
 First, change the Session restore setting under Desktop Sessions to Start with an Empty Session. Doing is neccessary because sometimes you close your linux with something running, that has stopped responding due to some corrupt data or setting. When you start again, that same application might locks the system again after boot as OS would try to reopen it.
