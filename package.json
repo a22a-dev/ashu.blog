@@ -1,0 +1,29 @@
+{
+  "name": "blog.avinash-a-kanaujiya.me",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-navigation": "^0.1.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx @11ty/eleventy --serve",
+    "build": "git status && npx eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aak9t9/blog.avinash-a-kanaujiya.me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aak9t9/blog.avinash-a-kanaujiya.me/issues"
+  },
+  "homepage": "https://github.com/aak9t9/blog.avinash-a-kanaujiya.me#readme"
+}

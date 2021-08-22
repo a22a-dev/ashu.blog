@@ -1,0 +1,47 @@
+---
+layout: layouts/base.liquid
+---
+<h2>{{books.liquid.data.currentlyreading}}</h2>
+
+<!-- shows the list of currently read books -->
+<p>
+
+	{% for book in currentReadingBook %}
+
+<ul>
+
+	<li>{{ book[1].name}}</li>
+
+	<ul>
+
+		<li>{{ book[1].description }}</li>
+	</ul>
+</ul>
+{% endfor %}
+</p>
+
+
+<h2>{{books.liquid.data.books}}</h2>
+
+<!-- to retrive post marked with tagname books in order where latest post is at top -->
+{% for post in collections.book reversed %}
+<p class="postLink">
+
+	<!-- to check if post is publishable -->
+	{% if post.data.publish !=false %}
+
+	<!-- to print the date of publishing of post -->
+	<em>{{ post.date | date: "%Y-%m-%d" }}</em>
+
+	<!-- to create the link of using it's title name -->
+	<a href="{{ post.url }}">{{ post.data.pageTitle }}</a>
+
+	<!-- to display the tags of the post by excluding few -->
+	{% for tag in post.data.tags reversed %}
+
+	<!-- prints the tag names -->
+	<b>{{ tag }}</b>
+	{% endfor %}
+	{% endif %}
+</p>
+{% endfor %}
