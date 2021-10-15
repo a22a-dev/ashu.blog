@@ -81,7 +81,7 @@ li{
 div.titlename a{
   display:inline-block !important;
   font-size: 50px;
-  float: left;
+  /* float: left; */
   padding: 5vh 15px 0px 0px;
   text-decoration: none !important;
   font-weight: bold;
