@@ -2,7 +2,7 @@
 pageTitle: the city we became
 date: 2020-08-09
 tags:
-  - book
+  - book-review
   - posts
 ---
 

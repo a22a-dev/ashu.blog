@@ -2,7 +2,7 @@
 pageTitle: how to formulate better acronyms and it's hidden meaning
 date: 2020-07-04
 tags:
-  - articles
+  - writing-better-acronyms
   - posts
 publish: true
 ---

@@ -1,7 +1,10 @@
 ---
 layout: layouts/base.liquid
 ---
-<h1>{{pageTitle}}</h1>
+<!-- <h1>{{pageTitle}}</h1> -->
+<div class="titlename">
+		<a href="/index.html">{{pageTitle}}</a>
+	</div>
 {{content}}
 <hr>
 {% assign previousPost = collections.posts | getPreviousCollectionItem: page %}

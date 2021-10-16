@@ -2,7 +2,6 @@
 pageTitle: object oriented programming - a primer
 date: 2020-07-10
 tags:
-  - articles
   - posts
 publish: true
 ---

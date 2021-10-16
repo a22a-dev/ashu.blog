@@ -2,7 +2,7 @@
 pageTitle: Fakenews & Issues
 date: 2020-10-10
 tags:
-  - articles
+  - fake-news
   - posts
 publish: false
 ---

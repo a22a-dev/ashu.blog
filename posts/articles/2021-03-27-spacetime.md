@@ -1,12 +1,9 @@
 ---
 pageTitle: TIL about space-time & it's curvature 
 tags:
-    - posts
-    - article
-    - space
-    - time
-    - curvature  
-
+  - posts
+  - space-time-curvature
+  - today-i-learned
 ---
 
 <ul>

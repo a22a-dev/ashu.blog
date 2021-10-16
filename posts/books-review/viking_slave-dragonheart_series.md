@@ -2,7 +2,7 @@
 pageTitle: Viking Slave
 date: 2020-08-22
 tags:
-  - book
+  - book-review
   - posts
 publish: false
 ---

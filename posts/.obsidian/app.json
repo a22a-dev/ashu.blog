@@ -1,0 +1,27 @@
+{
+  "showFrontmatter": true,
+  "spellcheck": true,
+  "autoPairMarkdown": false,
+  "defaultViewMode": "preview",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "",
+  "spellcheckDictionary": [
+    "dashlane",
+    "bitwarden",
+    "pageTitle",
+    "manjaro",
+    "india",
+    "Chak",
+    "De",
+    "british",
+    "korean",
+    "eleventyExcludeFromCollections",
+    "stockletter",
+    "moneylife",
+    "multibaggers",
+    "biometric"
+  ],
+  "promptDelete": false
+}
