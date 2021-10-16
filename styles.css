@@ -80,12 +80,13 @@ li{
 }*/
 div.titlename a{
   display:inline-block !important;
-  font-size: 50px;
+  font-size: 40px;
   /* float: left; */
-  padding: 5vh 15px 0px 0px;
+  padding: 3vh 0px 2vh 0px;
   text-decoration: none !important;
   font-weight: bold;
   color: #000000;
+  line-height: 5vh;
 }
 a{
   text-decoration-line:underline;
@@ -99,6 +100,6 @@ a{
 .flex-container > div {
   /* background-color: #f1f1f1; */
   /* margin: 10px; */
-  padding: 0 0 .4rem .6rem;
+  padding: 0 0 2vh 2vh;
   /* font-size: 30px; */
 }
