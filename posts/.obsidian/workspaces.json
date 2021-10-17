@@ -1,0 +1,156 @@
+{
+  "workspaces": {
+    "writng space": {
+      "main": {
+        "id": "7b699f6c0579fffa",
+        "type": "split",
+        "children": [
+          {
+            "id": "8f27f659f69df96c",
+            "type": "leaf",
+            "dimension": 67.3813169984686,
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "d5f415f3c1a70d28",
+            "type": "split",
+            "dimension": 32.618683001531394,
+            "children": [
+              {
+                "id": "77d0584e80d250c2",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              },
+              {
+                "id": "3be0a8e6d07be5f9",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ],
+            "direction": "horizontal"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "8364764de3912b98",
+        "type": "split",
+        "children": [
+          {
+            "id": "53f3bd1555e66a51",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0980e94d541cb2da",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "d00439ecffc5a79c",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#password-managers",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "46ae1bf1ce0a8548",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "right": {
+        "id": "e9466a07a9c2f57e",
+        "type": "split",
+        "children": [
+          {
+            "id": "1d628e2ba965ef52",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ff4d94c2961e4c35",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "436927a9a767b84e",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "1e825fcd2b059439",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "bdfae9bf44eccd69",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "active": "8f27f659f69df96c"
+    }
+  },
+  "active": "writng space"
+}

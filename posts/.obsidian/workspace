@@ -4,13 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "7a4046c9b1ac7bfb",
+        "id": "8f27f659f69df96c",
         "type": "leaf",
+        "dimension": 67.3813169984686,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "articles/2021-10-16-dashlane-to-bitwarden.md",
+            "file": "articles/2021-10-17-bought-moneylife-stockletter-subscription.md",
             "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "3be0a8e6d07be5f9",
+        "type": "leaf",
+        "dimension": 32.618683001531394,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "checklist/2021-10-XX-checklist-for-blog-post-writing.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#tv-show-review",
+                "query": "tag:#password-managers",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "articles/2021-10-16-dashlane-to-bitwarden.md",
+                "file": "articles/2021-10-17-bought-moneylife-stockletter-subscription.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "articles/2021-10-16-dashlane-to-bitwarden.md",
+                "file": "articles/2021-10-17-bought-moneylife-stockletter-subscription.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/2021-10-16-dashlane-to-bitwarden.md"
+                "file": "articles/2021-10-17-bought-moneylife-stockletter-subscription.md"
               }
             }
           }
@@ -126,19 +139,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "7a4046c9b1ac7bfb",
+  "active": "8f27f659f69df96c",
   "lastOpenFiles": [
-    "articles/2021-10-16-dashlane-to-bitwarden.md",
-    "articles/fake-news-and-society-degradation.md",
-    "articles/2021-10-XX-different-modes-and-types-of-authentication.md",
-    "articles/2021-10-21-all-about-procrastination.md",
-    "articles/2021-10-20-do-what-you-can't-do.md",
     "articles/2021-10-19-bought-moneylife-stockletter-subscription.md",
-    "articles/2021-10-18-hometown-cha-cha-cha.md",
+    "checklist/TV Show Review Checklist.md",
     "articles/2021-10-17-ted-lasso.md",
+    "checklist/2021-10-XX-checklist-for-blog-post-writing.md",
+    "articles/2021-10-XX-.md",
+    "articles/2021-10-16-dashlane-to-bitwarden.md",
+    "checklist/Untitled.md",
     "articles/Untitled.md",
-    "articles/2021-03-27-links.md"
+    "articles/fake-news-and-society-degradation.md",
+    "articles/2021-10-XX-different-modes-and-types-of-authentication.md"
   ]
 }
